@@ -1,0 +1,9 @@
+package LogicaEAlgoritmos;
+
+public class OperadoresAritméticos {
+
+	public static void main(String[] args) {
+
+	}
+
+}

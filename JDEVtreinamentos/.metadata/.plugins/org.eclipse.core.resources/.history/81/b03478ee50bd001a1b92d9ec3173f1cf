@@ -1,0 +1,16 @@
+package LogicaEAlgoritmos;
+
+public class OperadoresAritméticos {
+
+	public static void main(String[] args) {
+		
+		double n1 = 50;
+		double n2 = 78;
+		
+		System.out.println("Adição: " + (n1 + n2));
+		System.out.println("Subtração: " + (n1 - n2));
+		
+
+	}
+
+}
