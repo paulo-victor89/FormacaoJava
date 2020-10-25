@@ -11,14 +11,14 @@ public class OperacoesNumericas {
 		
 		/* somente valores inteiros basta trocar o double por int
 		System.out.println("Soma das notas = " + (nota1 + nota2 + nota3 + nota4));
-		System.out.println("Subtração das notas = "+(nota1 - nota2 - nota3 - nota4));
-		System.out.println("Média das notas = " + (nota1 + nota2 + nota3 + nota4)/4);
-		System.out.println("Multiplicação das notas = " + (nota1 * nota2 * nota3 * nota4));
+		System.out.println("Subtraï¿½ï¿½o das notas = "+(nota1 - nota2 - nota3 - nota4));
+		System.out.println("Mï¿½dia das notas = " + (nota1 + nota2 + nota3 + nota4)/4);
+		System.out.println("Multiplicaï¿½ï¿½o das notas = " + (nota1 * nota2 * nota3 * nota4));
 		*/
 		
 		/*Valores em casas decimais*/
 		double mediaFinal = (nota1 + nota2 + nota3 + nota4)/4;
-		System.out.println("A media das notas é: "+ mediaFinal);
+		System.out.println("A media das notas Ã© "+ mediaFinal);
 	}
 
 }

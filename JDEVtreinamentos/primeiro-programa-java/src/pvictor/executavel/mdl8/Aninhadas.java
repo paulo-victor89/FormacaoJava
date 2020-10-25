@@ -12,17 +12,17 @@ public class Aninhadas {
 		int soma = nota1 + nota2 + nota3 + nota4;
 		int media = soma / 4;
 
-		/* Operações lógicas aninhadas: são operações dentro de operações */
+		/* Operaï¿½ï¿½es lï¿½gicas aninhadas: sï¿½o operaï¿½ï¿½es dentro de operaï¿½ï¿½es */
 
 		if (media >= 5) {
 			if (media >= 7) {
 				System.out.println("Aluno aprovado direto, com media:" + media);
 			} else {
-				System.out.println("Aluno em recuperaçõa, com media: " + media);
+				System.out.println("Aluno em recuperação, com media: " + media);
 			}
 
 		} else {
-			System.out.println("Aluno reprovadp com media: " + media);
+			System.out.println("Aluno reprovado com media: " + media);
 		}
 
 	}

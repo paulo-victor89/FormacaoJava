@@ -10,43 +10,43 @@ public class OperadoresRelacionais {
 
 //		// Igual a
 //		if(n1 == n2 ) {
-//			System.out.println("Os numeros são iguais");
+//			System.out.println("Os numeros sï¿½o iguais");
 //		}else {
-//			System.out.println("Os numeros são diferentes");
+//			System.out.println("Os numeros sï¿½o diferentes");
 //		}
 
 //		// Diferente de
 //		if (n1 != n2) {
-//			System.out.println("Os numeros são diferentes");
+//			System.out.println("Os numeros sï¿½o diferentes");
 //		} else {
-//			System.out.println("Os numeros são Iguais");
+//			System.out.println("Os numeros sï¿½o Iguais");
 //		}
 
 //		// Maior que
 //		if (n1 > n2) {
 //			System.out.println("Os numero 1 e o maior ");
 //		} else {
-//			System.out.println("Os numero 1 não e o maior");
+//			System.out.println("Os numero 1 nï¿½o e o maior");
 //		}
 
 //		// Menor que
 //		if (n1 < n2) {
 //			System.out.println("Os numero 1 e o menor ");
 //		} else {
-//			System.out.println("Os numero 1 não e o menor" + n1 + n2);
+//			System.out.println("Os numero 1 nï¿½o e o menor" + n1 + n2);
 //		}
 
 //		// Maior ou igual
 //		if (n1 >= n2) {
 //			System.out.println("O numero 1 e maior ou igual ");
 //		} else {
-//			System.out.println("O numero 1 não e o maior nem igual");
+//			System.out.println("O numero 1 nï¿½o e o maior nem igual");
 //		}
 		// Menor ou igual
 		if (n1 <= n2) {
 			System.out.println("O numero 1 e menor ou igual ");
 		} else {
-			System.out.println("O numero 1 não e menor nem igual");
+			System.out.println("O numero 1 nÃ£o e menor nem igual");
 		}
 	}
 

@@ -10,7 +10,7 @@ public class OperadoresLogicos {
 		boolean n3 = true;
 		
 		if (n1 && n2 || n3) {
-			System.out.println("Entrou na condição");
+			System.out.println("Entrou na condiÃ§Ã£o");
 			
 		}
 

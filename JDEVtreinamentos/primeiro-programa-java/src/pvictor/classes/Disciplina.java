@@ -1,6 +1,6 @@
 package pvictor.classes;
 
-/* Essa classe servir· para todos os objetos e instancias de notas e disciplinas */ 
+/* Essa classe servir√° para todos os objetos e instancias de notas e disciplinas */ 
 public class Disciplina {
 
 	private String disciplina;

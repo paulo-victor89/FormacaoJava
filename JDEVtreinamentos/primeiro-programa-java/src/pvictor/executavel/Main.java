@@ -15,6 +15,8 @@ import pvictor.constantes.StatusAluno;
 
 public class Main {
 
+	private static String nome;
+
 	public static void main(String[] args) {
 
 		String login = JOptionPane.showInputDialog("Informe o login");
@@ -27,17 +29,17 @@ public class Main {
 			String qtdAlunos = JOptionPane.showInputDialog("Quantidade de alunos?");
 
 			List<Aluno> alunos = new ArrayList<Aluno>();
-			/* É uma lista que dentro dela temos uma chave que identifica uma sequencia de valores também */
+			/* ï¿½ uma lista que dentro dela temos uma chave que identifica uma sequencia de valores tambï¿½m */
 
 			// Estrutua de dados que representa os elementos por uma chave e um valor
-			// associado à chave
+			// associado ï¿½ chave
 			HashMap<String, List<Aluno>> alunosStatus = new HashMap<>();
 
 			// qtd de alunos
 			for (int qtd = 1; qtd <= Integer.parseInt(qtdAlunos); qtd++) {
 				// Entrada de dados com o teclado
-				String nome = JOptionPane.showInputDialog("Nome do " + qtd + "° " + " aluno ");
-				// Informações do aluno, sempre que precisar de alguma basta tirar o comentário
+				String nome = JOptionPane.showInputDialog("Nome do " + qtd + " " + " aluno ");
+				// InformaÃ§Ãµes do aluno, sempre que precisar de alguma basta tirar o comentÃ¡rio
 				/*
 				 * String idade = JOptionPane.showInputDialog("Qual a idade do aluno?"); String
 				 * dataNascimento =
@@ -71,7 +73,7 @@ public class Main {
 
 		} else {
 			JOptionPane.showMessageDialog(null,
-					"Acesso negado!" + "Login ou Senha inválidos!" + "\n" + "Pressione Ok e tente novamente!");
+					"Acesso negado!" + "Login ou Senha invÃ¡lidos!" + "\n" + "Pressione Ok e tente novamente!");
 		}
 	}
 
@@ -84,14 +86,14 @@ public class Main {
 
 	private static void verificarAlunosEmRecuperacao(HashMap<String, List<Aluno>> alunosStatus) {
 		System.out.println("==============================");
-		System.out.println("Lista dos alunos em RECUPERAÇÃO!");
+		System.out.println("Lista dos alunos em RECUPERAÃ‡ÃƒO!");
 		System.out.println("==============================");
 		if (!alunosStatus.get(StatusAluno.RECUPERACAO).isEmpty()) {
 			for (Aluno aluno : alunosStatus.get(StatusAluno.RECUPERACAO)) {
 				imprimirDadosAluno(aluno, alunosStatus.get(StatusAluno.RECUPERACAO).size() > 1);
 			}
 		} else {
-			System.err.println("Não há alunos em Recuperação!");
+			System.err.println("NÃ£o hÃ¡ alunos em RecuperaÃ§Ã£o!");
 		}
 	}
 
@@ -104,7 +106,7 @@ public class Main {
 				imprimirDadosAluno(aluno, alunosStatus.get(StatusAluno.REPROVADO).size() > 1);
 			}
 		} else {
-			System.err.println("Não há alunos Reprovados!");
+			System.err.println("NÃ£o hÃ¡ alunos Reprovados!");
 		}
 
 	}
@@ -118,14 +120,14 @@ public class Main {
 				imprimirDadosAluno(aluno, alunosStatus.get(StatusAluno.APROVADO).size() > 1);
 			}
 		} else {
-			System.err.println("Não há alunos Aprovados!");
+			System.err.println("NÃ£o hÃ¡ alunos Aprovados!");
 		}
 	}
 
 	private static void imprimirDadosAluno(Aluno aluno, boolean separacao) {
 
 		System.out.println("Nome: " + aluno.getNome());
-		System.out.println("Média: " + aluno.getMediaNota());
+		System.out.println("MÃ©dia: " + aluno.getMediaNota());
 
 		if (separacao)
 			System.out.println("-------------------");
@@ -151,8 +153,8 @@ public class Main {
 		String qtdDisciplinas = JOptionPane
 				.showInputDialog("Quantas disciplinas desejar cadastrar para o aluno " + aluno.getNome() + "?");
 		for (int pos = 1; pos <= Integer.parseInt(qtdDisciplinas); pos++) {
-			String nomeDisciplina = JOptionPane.showInputDialog("Digite o nome da " + pos + "º disciplina : ");
-			String notaDisciplina = JOptionPane.showInputDialog("Digite a nota da " + pos + "º disciplina : ");
+			String nomeDisciplina = JOptionPane.showInputDialog("Digite o nome da disciplina " + pos + " : ");
+			String notaDisciplina = JOptionPane.showInputDialog("Digite a nota da disciplina " + pos + "  : ");
 
 			Disciplina disciplina = new Disciplina();
 			disciplina.setDisciplina(nomeDisciplina);
@@ -192,7 +194,7 @@ public class Main {
 		return login.equalsIgnoreCase("admin") && senha.equalsIgnoreCase("admin");
 	}
 
-//	/* Percorrendo a lista por posição do aluno */
+//	/* Percorrendo a lista por posiï¿½ï¿½o do aluno */
 //	for (int pos = 0; pos < alunos.size(); pos++) {
 //
 //		Aluno aluno = alunos.get(pos);
@@ -207,7 +209,7 @@ public class Main {
 //
 //			Disciplina disciplina = new Disciplina();
 //			disciplina.setDisciplina(
-//					JOptionPane.showInputDialog(aluno.getNome() + " tinha as seguintes informações: " + "\n"
+//					JOptionPane.showInputDialog(aluno.getNome() + " tinha as seguintes informaï¿½ï¿½es: " + "\n"
 //							+ aluno.getDisciplinas() + "  deve ser trocado," + "\n" + "Nome da nova disciplina? "));
 //			disciplina.setNota(Double.parseDouble(JOptionPane.showInputDialog("Nota da nova disciplina:  ")));
 //
@@ -217,10 +219,10 @@ public class Main {
 //			aluno = alunos.get(pos);
 //		}
 //		JOptionPane.showMessageDialog(null,
-//				"Aluno = " + aluno.getNome() + "\n" + "Média do " + aluno.getNome() + " = " + aluno.getMediaNota()
+//				"Aluno = " + aluno.getNome() + "\n" + "Mï¿½dia do " + aluno.getNome() + " = " + aluno.getMediaNota()
 //						+ "\n" + "Resultado = " + aluno.getAlunoAprovado2() + "\n" + aluno.getDisciplinas());
 //
-//		// Percorrendo a lista por posição da disciplina 
+//		// Percorrendo a lista por posiï¿½ï¿½o da disciplina 
 ////		for (int posdisc = 0; posdisc < aluno.getDisciplinas().size(); posdisc++) {
 ////			Disciplina disc = aluno.getDisciplinas().get(posdisc);
 ////			System.out.println("Materia: " + disc.getDisciplina() + ", Nota = " + disc.getNota());

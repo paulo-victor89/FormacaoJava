@@ -1,6 +1,6 @@
 package LogicaEAlgoritmos;
 
-public class OperadoresAritméticos {
+public class OperadoresAritmÃ©ticos {
 
 	public static void main(String[] args) {
 
@@ -8,14 +8,14 @@ public class OperadoresAritméticos {
 
 		double n2 = 78;
 
-		System.out.println("Adição: " + (n1 + n2));
+		System.out.println("AdiÃ§Ã£o: " + (n1 + n2));
 
 		// Se o valor de n1 for menor que o de n2 vai ficar negativo
-		System.out.println("Subtração: " + (n1 - n2));
+		System.out.println("SubtraÃ§Ã£o: " + (n1 - n2));
 		
-		System.out.println("Multiplicação: " + (n1 * n2));
+		System.out.println("MultiplicaÃ§Ã£o: " + (n1 * n2));
 		
-		System.out.println("Divisão: " + (n1 / n2));
+		System.out.println("DivisÃ£o: " + (n1 / n2));
 
 	}
 

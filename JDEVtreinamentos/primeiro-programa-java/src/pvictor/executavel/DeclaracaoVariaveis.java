@@ -3,14 +3,14 @@ package pvictor.executavel;
 
 public class DeclaracaoVariaveis {
 
-	/* Variavel global é acessivel a todos e o seu valor é compartilhado */
+	/* Variavel global ï¿½ acessivel a todos e o seu valor ï¿½ compartilhado */
 	static int maiorIdadeGlobal = 30;
 	
 	public static void main(String[] args) {
 
-		/* Variavel local, pertence somente a esse metodo e o valor fica dentro do método! */
+		/* Variavel local, pertence somente a esse metodo e o valor fica dentro do mï¿½todo! */
 		int maiorIdade = 18;
-		System.out.println("Valor da variavel local é = "+ maiorIdade);
+		System.out.println("Valor da variavel local Ã©= "+ maiorIdade);
 		
 		/* */
 		metodo2();
@@ -18,7 +18,7 @@ public class DeclaracaoVariaveis {
 	}
 
 	public static void metodo2() {
-		System.out.println("Valor da variável global é = "+ maiorIdadeGlobal);
+		System.out.println("Valor da variÃ¡vel global Ã© = "+ maiorIdadeGlobal);
 		
 
 	}

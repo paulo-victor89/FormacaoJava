@@ -19,6 +19,7 @@ public class Variaveis {
 		if (idade == 31) {
 			System.out.println(nome + " Tem " + idade + " anos");
 		}
+		// aqui está setado a idade, e caso seja verdadeira vai adicionar o nome completo e a idade setada
 		idade = 33;
 		
 		if(idade == 33) {

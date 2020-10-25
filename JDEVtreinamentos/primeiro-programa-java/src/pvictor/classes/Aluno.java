@@ -5,10 +5,10 @@ import java.util.List;
 
 import pvictor.constantes.StatusAluno;
 
-/*Esta é a classe/objeto que respresenta o Aluno*/
+/*Esta ï¿½ a classe/objeto que respresenta o Aluno*/
 public class Aluno {
 
-	/* Esses são os atributos da classe Aluno */
+	/* Esses sï¿½o os atributos da classe Aluno */
 	private String nome;
 	private int idade;
 	private String dataNascimento;
@@ -20,7 +20,7 @@ public class Aluno {
 	private String nomeEscola;
 	private String serieMatriculado;
 
-	/* Objeto que contém a lista de disciplinas e notas */
+	/* Objeto que contÃ©m a lista de disciplinas e notas */
 	private List<Disciplina> disciplinas = new ArrayList<Disciplina>();
 
 	public List<Disciplina> getDisciplinas() {
@@ -31,23 +31,23 @@ public class Aluno {
 		this.disciplinas = disciplinas;
 	}
 
-	/* Cosntrutor vazio, deve seguir sempre esse padrão */
+	/* Cosntrutor vazio, deve seguir sempre esse padrÃ£o */
 	public Aluno() {
 
 	}
 
-	/* Construtor com um parâmetro */
+	/* Construtor com um parametro */
 	public Aluno(String nomePadrao) {
 		nome = nomePadrao;
 	}
 
-	/* Construtor com dois parâmetros */
+	/* Construtor com dois parametros */
 	public Aluno(String nomePadrao, int idadePadrao) {
 		nome = nomePadrao;
 		idade = idadePadrao;
 	}
 	/*
-	 * Métodos Getters e Setters GEt e para resgatar ou obter o valor do atributo
+	 * Mï¿½todos Getters e Setters GEt e para resgatar ou obter o valor do atributo
 	 * SET e para adicionar ou receber dados dos atributos
 	 */
 
@@ -131,7 +131,7 @@ public class Aluno {
 		this.serieMatriculado = serieMatriculado;
 	}
 
-	/* Método que retorna a media do aluno */
+	/* Mï¿½todo que retorna a media do aluno */
 	public double getMediaNota() {
 		double somaNotas = 0.0;
 
@@ -144,8 +144,8 @@ public class Aluno {
 	}
 
 	/*
-	 * Método que retorna true para aprovado e false para reprovado Usando esse
-	 * metodo, na classe main pode usar operador ternário! Apenas para aprovado e
+	 * Mï¿½todo que retorna true para aprovado e false para reprovado Usando esse
+	 * metodo, na classe main pode usar operador ternï¿½rio! Apenas para aprovado e
 	 * reprovado(true/false)
 	 */
 	public boolean getAlunoAprovadoBoolean() {
@@ -153,7 +153,7 @@ public class Aluno {
 
 	}
 
-	/* Método que retorna se foi aprovado, recuperação ou reprovado(String) */
+	/* Mï¿½todo que retorna se foi aprovado, recuperaï¿½ï¿½o ou reprovado(String) */
 	public String getAlunoAprovadoString() {
 		double media = this.getMediaNota();
 		if (media >= 5) {
@@ -168,7 +168,7 @@ public class Aluno {
 
 	}
 
-	/* toString que contém as informações do aluno */
+	/* toString que contï¿½m as informaï¿½ï¿½es do aluno */
 	@Override
 	public String toString() {
 		return "Aluno [" + "\n nome= " + getNome() + ", idade=" + getIdade() + ", dataNascimento= "

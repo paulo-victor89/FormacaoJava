@@ -18,7 +18,7 @@ public class MediaFinal {
 		
 		
 
-		JOptionPane.showMessageDialog(null, "As 4 notas digitadas s„o:  " + "\n Nota 1 = " + nota1 + "\n Nota 2 = "
+		JOptionPane.showMessageDialog(null, "As 4 notas digitadas s√£o:  " + "\n Nota 1 = " + nota1 + "\n Nota 2 = "
 				+ nota2 + "\n Nota 3 = " + nota3 + "\n Nota 4 = " + nota4);
 		JOptionPane.showMessageDialog(null,"O aluno: " + nome + " Ficou com a media = " + media);
 		
