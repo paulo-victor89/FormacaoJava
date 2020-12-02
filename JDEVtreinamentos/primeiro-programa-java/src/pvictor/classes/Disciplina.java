@@ -1,6 +1,6 @@
 package pvictor.classes;
 
-/* Essa classe servirá para todos os objetos e instancias de notas e disciplinas */ 
+/* Essa classe servirá para todos os objetos e instancias de notas e disciplinas */
 public class Disciplina {
 
 	private String disciplina;
@@ -9,10 +9,11 @@ public class Disciplina {
 	public double getNota() {
 		return nota;
 	}
+
 	public String getDisciplina() {
 		return disciplina;
 	}
-	
+
 	public void setDisciplina(String disciplina) {
 		this.disciplina = disciplina;
 	}
@@ -20,14 +21,11 @@ public class Disciplina {
 	public void setNota(double nota) {
 		this.nota = nota;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Disciplina [\n "
-				+ "disciplina= " + getDisciplina() + ", nota= " + getNota() 
-				+	"\n"+ "]";
+		return "Disciplina [\n " + "disciplina= " + getDisciplina() + ", nota= " + getNota() + "\n" + "]";
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -58,7 +56,5 @@ public class Disciplina {
 			return false;
 		return true;
 	}
-
-	
 
 }
