@@ -1,0 +1,24 @@
+package pvictor.executavel;
+
+public class PrimeiraClasse {
+	/* Main é um metodo auto executavel em Java */
+	public static void main(String[] args) {
+
+		/*
+		 * O valor padrão sempre será Zero! int numero; int numero2 = 0;
+		 * 
+		 * System.out.println(numero2);
+		 */
+
+		/* A Variavel sempre deve representar alguma coisa */
+		int maiorIdade = 18;
+		
+		int idosoIdade = 60;
+		
+		int jovemIdade = 16;
+		
+		int criancaIdade = 7;
+		
+	}
+
+}

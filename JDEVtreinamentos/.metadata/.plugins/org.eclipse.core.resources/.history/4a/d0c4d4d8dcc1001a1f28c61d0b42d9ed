@@ -1,0 +1,19 @@
+package pvictor.executavel.mdl8;
+
+public class OperadoresLogicosIfElse {
+
+	public static void main(String[] args) {
+		
+		int mediaAluno = 70;
+		
+		if(mediaAluno >= 70) {
+			System.out.println("Aluno Parovado");
+		}
+		if(mediaAluno < 70) {
+			System.out.println("Aluno Reprovado");
+		}
+
+		
+	}
+
+}

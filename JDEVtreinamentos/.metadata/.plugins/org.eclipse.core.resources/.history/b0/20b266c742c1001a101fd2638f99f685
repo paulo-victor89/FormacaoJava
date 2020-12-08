@@ -1,0 +1,13 @@
+package pvictor.executavel;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+
+		String nome = "Paulo";
+		String cpf = "379.181.988-75";
+		String telefone = "190";
+		
+	}
+
+}

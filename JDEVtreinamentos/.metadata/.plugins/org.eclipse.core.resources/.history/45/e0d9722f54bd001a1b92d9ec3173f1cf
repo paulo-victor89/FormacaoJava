@@ -1,0 +1,32 @@
+package LogicaEAlgoritmos;
+
+public class OperadoresRelacionais {
+
+	public static void main(String[] args) {
+
+		int n1 = 10;
+
+		int n2 = 10;
+
+//		// Igual a
+//		if(n1 == n2 ) {
+//			System.out.println("Os numeros são iguais");
+//		}else {
+//			System.out.println("Os numeros são diferentes");
+//		}
+//		// Diferente de
+//		if (n1 != n2) {
+//			System.out.println("Os numeros são diferentes");
+//		} else {
+//			System.out.println("Os numeros são Iguais");
+//		}
+
+		// Maior que
+		if (n1 > n2) {
+			System.out.println("Os numeros são diferentes");
+		} else {
+			System.out.println("Os numeros são Iguais");
+		}
+	}
+
+}

@@ -1,0 +1,15 @@
+package LogicaEAlgoritmos;
+
+public class Variaveis {
+	
+	private static double total = 0;
+	private static int produtos = 10;
+	private static int quantidae = 15;
+	
+	public static void main(String[]args) {
+		total = produtos * quantidade;
+		System.out.println(total);
+	}
+	
+
+}

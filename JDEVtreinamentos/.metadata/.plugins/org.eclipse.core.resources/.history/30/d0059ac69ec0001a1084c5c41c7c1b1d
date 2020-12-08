@@ -1,0 +1,22 @@
+package pvictor.executavel;
+
+public class DeclaracaoVariaveis {
+
+	/* Variavel global é acessivel a todos */
+	static int maiorIdadeGlobal = 30;
+	
+	public static void main(String[] args) {
+
+		/* Variavel local, pertence somente a esse metodo */
+		int idade = 18;
+		
+		metodo2();
+
+	}
+
+	public static void metodo2() {
+		System.out.println("Valor da variável global é = "+ maiorIdadeGlobal);
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package pvictor.executavel;
+
+
+public class PrimeiraClasse {
+	/* Main é um metodo auto executavel em Java */
+	public static void main(String[] args) {
+
+		/*
+		 * O valor padrão sempre será Zero! int numero; int numero2 = 0;
+		 * 
+		 * System.out.println(numero2);
+		 */
+
+		/* A Variavel sempre deve representar alguma coisa
+		 * O nome das variaveis não pode ser repetido
+		 * Deve ser sempre iniciada com minuscula */
+		
+		int maiorIdade = 18;
+		
+		int idosoIdade = 60;
+		
+		int jovemIdade = 16;
+		
+		int criancaIdade = 7;
+		
+		
+		System.out.println("Maior idade é = " + maiorIdade);
+		System.out.println("Idade do idoso é = " + idosoIdade);
+		System.out.println("Idade do jovem é = " + jovemIdade);
+		System.out.println("A idade da criança é = " + criancaIdade);
+		System.out.println("O cpf é = " + cpf);
+		
+	}
+
+}
